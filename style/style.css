@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.calculator{
+    border: 4px solid #13695d;
+    background-color: black;
+    padding: 3rem;
+    border-radius: 5rem;
+    display: inline-block;
+}
+
+input{
+    border-radius: 21px;
+    border: 5px solid whitesmoke;
+    font-size:34px;
+    height: 4rem;
+    width: 16rem;
+}
+
+button{
+    border-radius: 20px;
+    font-size: 3rem;
+    background: #978fa0;
+    width: 3rem;
+    height: 4rem;
+    margin: 0.5rem;
+    border: none;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
